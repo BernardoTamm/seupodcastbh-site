@@ -1,0 +1,15 @@
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editores
+.vscode/
+.idea/
+*.swp
+
+# Dependências (caso use no futuro)
+node_modules/
+
+# Zips de build (não versionar)
+*.zip

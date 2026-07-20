@@ -1,0 +1,51 @@
+# robots.txt — Seu Podcast BH
+# Objetivo: máxima visibilidade em busca orgânica (Google) e em respostas de IA.
+
+# ---- Regra geral: tudo liberado ----
+User-agent: *
+Allow: /
+
+# ---- Buscadores tradicionais ----
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# ---- Robôs de BUSCA por IA (aparecer em respostas/citações) ----
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+# ---- Robôs de TREINAMENTO de IA (presença de marca em modelos) ----
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+# Sitemap
+Sitemap: https://www.seupodcastbh.com.br/sitemap.xml
